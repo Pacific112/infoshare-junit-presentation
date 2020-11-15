@@ -1,0 +1,35 @@
+= Person
+
+== Get Person
+A `GET` request that can be used to retrieve Person.
+
+=== Request structure
+include::{snippets}/fetch-person/http-request.adoc[]
+
+=== Path Parameters
+include::{snippets}/fetch-person/path-parameters.adoc[]
+
+=== Example response
+include::{snippets}/fetch-person/response-body.adoc[]
+include::{snippets}/fetch-person/response-fields.adoc[]
+
+=== CURL request
+include::{snippets}/fetch-person/curl-request.adoc[]
+
+=== Additional Responses
+Trying to fetch not existing person
+include::{snippets}/fetch-person-not-found/http-response.adoc[]
+
+== Create Person
+A `POST` request that can be used to create new Person.
+
+=== Request structure
+include::{snippets}/create-person/request-body.adoc[]
+include::{snippets}/create-person/request-fields.adoc[]
+
+=== Example response
+include::{snippets}/fetch-person/response-body.adoc[]
+include::{snippets}/fetch-person/response-fields.adoc[]
+
+=== CURL request
+include::{snippets}/create-person/curl-request.adoc[]
