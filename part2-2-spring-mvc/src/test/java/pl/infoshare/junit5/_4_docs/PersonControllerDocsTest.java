@@ -1,4 +1,4 @@
-package pl.infoshare.junit5._5_docs;
+package pl.infoshare.junit5._4_docs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -59,7 +59,7 @@ public class PersonControllerDocsTest {
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
                 .andExpect(jsonPath("id").value(equalTo(1)))
-                .andExpect(jsonPath("otherName").value(equalTo("Maciek")))
+                .andExpect(jsonPath("name").value(equalTo("Maciek")))
                 .andDo(document(
                         "create-person",
                         requestFields(

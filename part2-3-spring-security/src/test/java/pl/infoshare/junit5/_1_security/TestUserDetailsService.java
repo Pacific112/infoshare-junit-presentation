@@ -1,4 +1,4 @@
-package pl.infoshare.junit5._4_security;
+package pl.infoshare.junit5._1_security;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

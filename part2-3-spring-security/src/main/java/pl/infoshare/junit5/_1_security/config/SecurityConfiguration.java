@@ -1,4 +1,4 @@
-package pl.infoshare.junit5._4_security.config;
+package pl.infoshare.junit5._1_security.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

@@ -1,7 +1,7 @@
-package pl.infoshare.junit5._4_security.config;
+package pl.infoshare.junit5._1_security.config;
 
 import org.springframework.stereotype.Component;
-import pl.infoshare.junit5._4_security.CurrendaUser;
+import pl.infoshare.junit5._1_security.CurrendaUser;
 
 import java.util.Map;
 

@@ -8,8 +8,6 @@ import org.springframework.boot.web.server.LocalServerPort;
 import pl.infoshare.junit5._2_endpoint.person.Person;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
-import static org.springframework.security.config.http.MatcherType.mvc;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class PersonControllerOldTest {
