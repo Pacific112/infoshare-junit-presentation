@@ -1,4 +1,4 @@
-package pl.infoshare.junit5._2_mockito._4_not_recommended;
+package pl.infoshare.junit5._2_mockito._5_not_recommended;
 
 import pl.infoshare.junit5._2_mockito.Person;
 
